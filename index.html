@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ülesanded</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Ülesannete lisamine</h1>
+    <form>
+        <label for="ülesande-input">Ülesanne:</label><br>
+        <textarea id="ülesande-input" rows="10" cols="60">Siia kirjuta ülesanne.</textarea><br>
+        <button type="button" id="lisa-ülesanne-nupp">Lisa ülesanne</button>
+    </form>
+
+    <!-- Sortimisnupp -->
+    <button type="button" id="sorteeri-nupp" style="margin-top: 20px;">Sorteeri ülesanded</button>
+    <h2>Filtreeri ülesandeid:</h2>
+    <button id="filtreeri-kõik">Kõik ülesanded</button>
+    <button id="filtreeri-täitmata">Ainult täitmata ülesanded</button>
+    <button id="filtreeri-täidetud">Ainult täidetud ülesanded</button>
+
+
+    <ul id="ülesande-list">
+        <!-- Siia ilmuvad lisatud ülesanded -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
